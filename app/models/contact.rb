@@ -1,4 +1,5 @@
 class Contact < ActiveRecord::Base
+    # Contact form validations
     validates :name, :email, :comments, presence: true
     validates :email, format: { with: /.+@.+\..+/i, on: :create }
     # https://davidcel.is/posts/stop-validating-email-addresses-with-regex/
