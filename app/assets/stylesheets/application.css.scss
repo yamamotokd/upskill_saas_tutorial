@@ -53,8 +53,17 @@ h1, h2, h3 {
     color: white;
 }
 
-.alert-notice {
-    display: none;
+.flash-container {
+    position: absolute;
+    width: 100%;
+}
+
+.alert-notice, .alert-alert {
+    text-align: center;
+    background: #ffffff4d;
+    border-color: #fffc;
+    margin-top: -14px;
+    color: white
 }
 
 .home-signup-links {
